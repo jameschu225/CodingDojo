@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#top-nav{
+    background-color: black;
+    color: aliceblue;
+    font-size: xx-large;
+    font-weight: 300;
+    margin: 0px auto;
+    width: 700px;
+    padding: 10px 20px;
+}
+h1{
+    color: black;
+    font-weight: 300;
+    place-self: center;
+    margin: 0px auto;
+    width: 700px;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+#main{
+    display: flex;
+    vertical-align: top;
+    justify-content: space-between;
+    margin: 0px auto;
+    width: 730px;
+}
+#profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-style: solid;
+    padding: 20px 10px;
+    height: max-content;
+}
+#profile img{
+    width: 120px;
+    height: 120px;
+}
+* a{
+    color: royalblue;
+}
+#profile a{
+    margin: 20px;
+    font-size: large;
+}
+#profile p{
+    font-size: xx-large;
+    font-weight: 500;
+}
+#youfeed{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#feed{
+    border-style: solid;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 500px;
+}
+#content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#like{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+}
+h2{
+    font-weight: 100;
+    font-size: 30px;
+}
+#likebtn{
+    padding: 5px 10px;
+    background-color: rgb(255, 235, 18);
+    border-color: black;
+    border-style: double;
+    box-shadow: 2px 3px black;
+    font-size: large;
+    margin-left: 30px;
+}
+#feedcomt{
+    display: inline;
+    font-size: 20px;
+    padding-right: 50px;
+}

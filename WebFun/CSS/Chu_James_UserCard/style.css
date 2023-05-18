@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#main{
+    border-color: rgb(192, 189, 189);
+    border-style: solid;
+    margin: 50px 100px;
+
+}
+#top-nav{
+    height: 200px;
+    width: inherit;
+    background-color: rgb(2, 179, 188);
+}
+#content{
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#Usercard{
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-color: rgb(127, 125, 125);
+    border-style: solid;
+    border-radius: 60px;
+    background-color: aliceblue;
+    padding: 2px;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin: 10px 0px;
+}
+#location{
+    display: flex;
+    vertical-align: top;
+    margin: 10px 0px;
+}
+#input-location{
+    margin-left: 10px;
+}
+#map-marker{
+    height: 20px;
+    width: 15px;
+}
+#experience{
+    margin: 10px 0px;
+}
+#experience p{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+#footer{
+    display: flex;
+    vertical-align: bottom;
+    margin: 10px 0px;
+}
+.gear{
+    height: 20px;
+    width: 20px;
+    order: -1;
+}
+#footer a{
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}

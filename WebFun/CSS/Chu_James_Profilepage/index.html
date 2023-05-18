@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profilepage</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,100italic,300italic,400italic,500italic,500,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div id="top-nav">
+        <p class="nav-title">Profile</p>
+        <div class="nav-function">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+            </ul>
+            <button class="btn">Sign Out</button>
+        </div>
+    </div>
+    <div id="content">
+        <div id="main">
+            <div id="profile">
+                <div id="profiletop"></div>
+                <img id="Usercard" src="img/images/jane-m.jpg" alt="jane-m">
+                <div id="profilecontent">
+                    <h1>Jane Doe</h1>
+                    <div id="location">
+                        <img id="map-marker" src="img/icons/map-marker.png" alt="map-marker">
+                        <input id="input-location" type="text" placeholder="location">
+                    </div>    
+                    <div id="experience">
+                        <p>Developer | Engineer | Problem Solver</p>
+                        <p>Master of shaows and the Internet!</p>
+                    </div>
+                    <div id="edit">
+                        <a href="">edit profile</a>
+                        <img class="gear" src="img/icons/gear.png" alt="gear">
+                    </div>
+                </div>
+            </div>
+            <div id="education">
+                <h2>Education</h2>
+                <div id="educationhistory">
+                    <div id="education1">
+                            <h3 class="institute"> Coding Dojo - Full Stack Bootcamp</h3>
+                            <p class="duration">Dec 2019 - Mar 2020</p>
+                            <p class="achievement">Triple balck belt in Python, MERN, and C#...</p>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        <div id="sidebar">
+            <div id="connectionrequest">
+                <h2><p class="requestcount">2</p>Connection Requests</h2>
+                    <div id="requesthistory">
+                        <div class="requester">
+                            <img src="img/images/todd-s.jpg" alt="todd-s">
+                            <p class="requestname">Todd E</p>
+                            <div class="requestfunction">
+                                <img src="img/icons/accept-circle.png" alt="accept">
+                                <img src="img/icons/close-circle.png" alt="reject">
+                            </div>
+                        </div>
+                        <div class="requester">
+                            <img src="img/images/phil-s.jpg" alt="phil-s">
+                            <p class="requestname">Phil K</p>
+                            <div class="requestfunction">
+                                <img src="img/icons/accept-circle.png" alt="accept">
+                                <img src="img/icons/close-circle.png" alt="reject">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div id="yourconnection">
+                <h2><p class="connectioncount">500+</p>Your Connections</h2>
+                <div id="connectionhistory">
+                    <div class="connection">
+                        <img src="img/images/adrien-s.jpg" alt="adrien-s">
+                        <p class="connector">Adrien D</p>
+                    </div>
+                    <div class="connection">
+                        <img src="img/images/alayne-s.jpg" alt="alayne-s">
+                        <p class="connector">Alayne T</p>
+                    </div>
+                    <div class="connection">
+                        <img src="img/images/anne-s.jpg" alt="anne-s">
+                        <p class="connector">Anne J</p>
+                    </div>
+                    <div class="connection">
+                        <img src="img/images/arry-s.jpg" alt="arry-s">
+                        <p class="connector">Arry Y</p>
+                    </div>
+                </div>
+                <div id="viewmore">
+                    <a href="">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

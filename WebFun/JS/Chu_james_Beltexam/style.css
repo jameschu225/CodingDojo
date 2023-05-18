@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    margin: 0px auto;
+    padding: 0px 100px;
+}
+#webname{
+    display: flex;
+    font-size: 50px;
+    font: bolder;
+    font-weight: 800;
+    padding: 10px 0px;
+}
+#webname-second{
+    color: blueviolet;
+}
+#top-nav-control{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+#currency{
+    border-color: black;
+    height: 30px;
+    font-size: 20px;
+}
+#shopcart{
+    display: flex;
+    align-items: center;
+    margin:0px 30px;
+}
+#shopcart img{
+    height: 50px;
+    rotate: y -180deg;
+}
+#cartcount{
+    font-size: 30px;
+    text-decoration: underline;
+    padding: 5px;
+}
+#top-nav-control img{
+    height: 50px;
+}
+#highlight{
+    background-color: gainsboro;
+    font-weight: 800;
+    font-size: 30px;
+    padding: 10px 100px;
+    margin: 0px auto;
+}
+#main{
+    background-color: gainsboro;
+    margin: 0px auto;
+    padding: 0px 100px;
+}
+#preview{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#select-right{
+    rotate: 180deg;
+}
+#select-indicator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#select-indicator div{
+    height: 10px;
+    width: 80px;
+    margin: 20px 50px;
+}
+#first-selector{
+    background-color: gray;
+}
+#second-selector{
+    background-color: blueviolet;
+}
+#third-selector{
+    background-color: gray;
+}
+#fourth-selector{
+    background-color: gray;
+}
+#content{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    background-color: white;
+}
+.item img{
+    height: 200px;
+    width: 350px;
+}
+.item-profile{
+    padding: 0px 20px;
+}
+.item-profile > p{
+    font-weight: 800;
+    font-size: 20px;
+}
+.platform img{
+    height: 30px;
+    width: 30px;
+}
+.item-control{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+.item-control > p{
+    background-color: blueviolet;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 10px 10px;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.old-price{
+    text-decoration: line-through;
+    color: darkgray;
+    font-size: 15px;
+}
+.new-price{
+    font-weight: 800;
+    font-size: 20px;
+}
+.item-control button{
+    background-color: mediumseagreen;
+    border-style: none;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 10px 10px;
+    box-shadow: 2px 2px black;
+}

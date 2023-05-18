@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WFbeltExam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="top-nav">
+        <div id="webname">
+            <p id="webname-first">Gaming</p><p id="webname-second">Dojo</p>
+        </div>
+        <div id="top-nav-control">
+                <select name="currency" id="currency">
+                    <option value="euro">Euro €</option>
+                    <option value="usd">USD $</option>
+                </select>
+            <div id="shopcart">
+                <img src="images/cart-light.png" alt="cart-light">
+                <p id="cartcount">0</p>
+            </div>
+            <img src="images/search-light.png" alt="search-light">
+        </div>
+    </div>
+    <p id="highlight">Hightlights</p>
+    <div id="main">
+        <div id="preview">
+            <img src="images/chevron-left.png" onclick="goprevious()" alt="left">
+            <img id="currentview" src="images/stonepunk.png" alt="stonepunk">
+            <img id="select-right" src="images/chevron-left.png" onclick="gonext()" alt="right">
+        </div>
+        <div id="select-indicator">
+            <div id="first-selector"></div>
+            <div id="second-selector"></div>
+            <div id="third-selector"></div>
+            <div id="fourth-selector"></div>
+        </div>
+        <div id="content">
+            <div class="item">
+                <img src="images/cafe-neko.png" alt="cafe-neko">
+                <div class="item-profile">
+                    <p>Cafe Neko: Gold Edition</p>
+                    <div class="platform">
+                        <img src="images/windows.png" alt="windows">
+                        <img src="images/apple.png" alt="apple">
+                    </div>
+                    <div class="item-control">
+                        <p>-20%</p>
+                        <div class="price">
+                            <p class="old-price">€14.98</p>
+                            <p class="new-price">€10.49</p>
+                        </div>
+                        <button class="buy" onclick="buy()">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/pixel-ninjas-2.png" alt="pixel-ninjas-2">
+                <div class="item-profile">
+                    <p>Pixel Ninjas 2</p>
+                    <div class="platform">
+                        <img src="images/windows.png" alt="windows">
+                        <img src="images/apple.png" alt="apple">
+                    </div>
+                    <div class="item-control">
+                        <p>-10%</p>
+                        <div class="price">
+                            <p class="old-price">€8.19</p>
+                            <p class="new-price">€7.39</p>
+                        </div>
+                        <button class="buy" onclick="buy()">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/stonepunk.png" alt="stonepunk">
+                <div class="item-profile">
+                    <p>Stonepunk 10000 BCE</p>
+                    <div class="platform">
+                        <img src="images/windows.png" alt="windows">
+                        <img src="images/apple.png" alt="apple">
+                        <img src="images/linux.png" onclick="warm()" alt="linux">
+                    </div>
+                    <div class="item-control">
+                        <p>NEW</p>
+                        <div class="price">
+                            <p class="old-price">&nbsp;</p>
+                            <p class="new-price">€19.99</p>
+                        </div>
+                        <button class="buy" onclick="buy()">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

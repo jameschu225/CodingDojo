@@ -1,0 +1,33 @@
+h1 {
+    padding: 10pt;
+    margin-bottom: -20pt;
+    margin-top: 0pt;
+    text-align: left;
+    background-color: black;
+    font-family: sans-serif;
+    font-size: 80pt;
+}
+.firstheader {
+    color: white;
+}
+.secondheader{
+    color: aquamarine;
+}
+h2 {
+    color: white;
+    font-size: 40pt;
+    font-style: italic;
+    padding: 15pt;
+    margin-bottom: -5pt;
+    text-align: center;
+    background-color: purple;
+}
+h3 {
+    color: blueviolet;
+    font-size: 20pt;
+    font-family: monospace;
+    padding: 10pt;
+    text-decoration: underline;
+    text-align: right;
+    background-color: cornflowerblue;
+}

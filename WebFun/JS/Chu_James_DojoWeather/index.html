@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojoweather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="top-nav">
+        <p>Dojoweather</p>
+        <div id="other-city">
+            <p onclick="myalert()">Burbank</p>
+            <p onclick="myalert()">Chicago</p>
+            <p onclick="myalert()">Dallas</p>
+        </div>
+    </div>
+    <div id="main">
+        <div id="location-profile">
+            <p>San Jose</p>
+            <div id="location-profile-control">
+                <label for="temp">show temperature in</label>
+                <select name="temp-unit" id="temp-unit" onchange="convert(this)">
+                        <option>°C</option>
+                        <option>°F</option>
+                </select>
+            </div>
+        </div>
+        <hr size="8" noshade="">
+        <div id="content">
+            <div class="forecast">
+                <p class="date">Today</p>
+                <img src="assets/some_rain.png" alt="some-rain">
+                <p class="weather-desript">some rain</p>
+                <div class="temprange">
+                    <label for="hitemp" class="hitemp1">24°</label>
+                    <label for="lowtemp" class="lowtemp1">18°</label>
+                </div>
+            </div>
+            <div class="forecast">
+                <p class="date">Tomorrow</p>
+                <img src="assets/some_sun.png" alt="some-sun">
+                <p class="weather-desript">some sun</p>
+                <div class="temprange">
+                    <label for="hitemp" class="hitemp2">27°</label>
+                    <label for="lowtemp" class="lowtemp2">19°</label>
+                </div>
+            </div>
+            <div class="forecast">
+                <p class="date">Friday</p>
+                <img src="assets/some_clouds.png" alt="some-clouds">
+                <p class="weather-desript">some clouds</p>
+                <div class="temprange">
+                    <label for="hitemp" class="hitemp3">21°</label>
+                    <label for="lowtemp" class="lowtemp3">16°</label>
+                </div>
+            </div>
+            <div class="forecast">
+                <p class="date">Saturday</p>
+                <img src="assets/some_sun.png" alt="some-sun">
+                <p class="weather-desript">some sun</p>
+                <div class="temprange">
+                    <label for="hitemp" class="hitemp4">26°</label>
+                    <label for="lowtemp" class="lowtemp4">21°</label>
+                </div>
+            </div>
+        </div>
+        <div id="cookie">
+            <img src="assets/cookie.png" alt="coolie">
+            <div id="cookie-content">
+                <p id="cookie-content-head">Stop! Cookie time</p>
+                <p id="cookie-content-content">We use cookies (sadlynot the edible ones) to personalize<br> content and ads, to provide social media feature and to<br> analyse our traffic. <a href="">Read more...</a></p>
+            </div>
+            <button id="accept" onclick="remove()">I Accpet</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
