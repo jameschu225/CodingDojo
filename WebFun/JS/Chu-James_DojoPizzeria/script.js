@@ -16,32 +16,33 @@ let pizza4 = pizzaOven("crisp", "black", "yellow", ["tomato", "oilver", "pickle"
 console.log(pizza4)
 
 function randomPizza(i){
-    let pizzanumber = "pizza" + Math.round(i);
     let pizza1 = {
         crustType: "deep dish",
         sauceType: "traditional",
         cheeses: "mozzarella",
         toppings: ["pepperoni", "sausage"]
-        };
+    };
     let pizza2 = {
-            crustType: 'hand tossed',
-            sauceType: 'marinara',
-            cheeses: [ 'mozzarella', 'feta' ],
-            toppings: [ 'mushrooms', 'olives', 'onions' ]
-        };
+        crustType: 'hand tossed',
+        sauceType: 'marinara',
+        cheeses: [ 'mozzarella', 'feta' ],
+        toppings: [ 'mushrooms', 'olives', 'onions' ]
+    };
     let pizza3 = {
-            crustType: 'burn',
-            sauceType: 'white',
-            cheeses: [ 'pepperjack', 'american' ],
-            toppings: [ 'egg', 'tuna' ]
-        };
+        crustType: 'burn',
+        sauceType: 'white',
+        cheeses: [ 'pepperjack', 'american' ],
+        toppings: [ 'egg', 'tuna' ]
+    };
     let pizza4 = {
-            crustType: 'crisp',
-            sauceType: 'black',
-            cheeses: 'yellow',
-            toppings: [ 'tomato', 'oilver', 'pickle' ]
-        };
-    return pizzanumber
+        crustType: 'crisp',
+        sauceType: 'black',
+        cheeses: 'yellow',
+        toppings: [ 'tomato', 'oilver', 'pickle' ]
+    };
+    let pizzalist = [pizza1, pizza2, pizza3, pizza4];
+         pizzanumber = Math.floor(Math.random() * 4) + 1;
+    return pizzalist[pizzanumber]
     }
 
-console.log(randomPizza((Math.random() * 4) + 1))
+console.log(randomPizza())
